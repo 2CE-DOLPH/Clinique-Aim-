@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clinique Dentaire Ivoire - Contactez-nous à Abidjan, Côte d'Ivoire. Prenez rendez-vous en ligne. Trouvez notre adresse, numéro de téléphone, email et heures d'ouverture.">
+    <title>Contact | Clinique Dentaire Ivoire</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Clinique<span>Dentaire</span> Ivoire</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('img/contact.avif');">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contactez Clinique Dentaire Ivoire</h1>
+                <p>Nous sommes là pour répondre à toutes vos questions et prendre vos rendez-vous</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in-scroll">
+                <h2>Nos Coordonnées</h2>
+                <p>Contactez-nous par téléphone, email ou en visitant notre clinique</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item fade-in-up">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <h3>Notre Adresse</h3>
+                            <p>15 Rue des Jardins<br>Plateau, Abidjan</p>
+                        </div>
+                    </div>
+                    <div class="info-item fade-in-up">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-content">
+                            <h3>Téléphone</h3>
+                            <p>+225 21 22 33 44</p>
+                            <p>Lun-Ven: 8h00-18h00</p>
+                        </div>
+                    </div>
+                    <div class="info-item fade-in-up">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p>info@cliniquedentaire-ivoire.ci</p>
+                        </div>
+                    </div>
+                    <div class="info-item fade-in-up">
+                        <i class="fas fa-clock"></i>
+                        <div class="info-content">
+                            <h3>Heures d'Ouverture</h3>
+                            <p>Lundi - Vendredi: 8h00 - 18h00</p>
+                            <p>Samedi: 9h00 - 15h00</p>
+                            <p>Dimanche: Fermé</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container fade-in-up">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.487271244041!2d-4.05037368523649!3d5.366055996088435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ebe1c0000001%3A0x40e785a00000000!2sAbidjan!5e0!3m2!1sen!2sci!4v1623456789012!5m2!1sen!2sci" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in-scroll">
+                <h2>Prendre un Rendez-vous</h2>
+                <p>Remplissez le formulaire ci-dessous et nous vous contacterons pour confirmer votre rendez-vous</p>
+            </div>
+            <form id="appointment-form" class="appointment-form">
+                <div class="form-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" class="form-control" placeholder="Nom Complet *" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" id="phone" class="form-control" placeholder="Numéro de Téléphone *" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" class="form-control" placeholder="Adresse Email *" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-calendar-alt"></i>
+                    <input type="date" id="date" class="form-control" placeholder="Date Préférée *" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-clock"></i>
+                    <select id="time" class="form-control" required>
+                        <option value="">Sélectionnez l'Heure Préférée *</option>
+                        <option value="09:00">09:00</option>
+                        <option value="10:00">10:00</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="13:00">13:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="15:00">15:00</option>
+                        <option value="16:00">16:00</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-comments"></i>
+                    <textarea id="message" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary">Envoyer la Demande de Rendez-vous</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Emergency Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in-scroll">
+                <h2>Urgences Dentaires</h2>
+                <p>Pour les urgences dentaires en dehors des heures d'ouverture</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item fade-in-up">
+                        <i class="fas fa-ambulance"></i>
+                        <div class="info-content">
+                            <h3>Ligne d'Urgence</h3>
+                            <p>+225 21 99 00 00</p>
+                            <p>Disponible 24/7 pour des soins dentaires urgents</p>
+                        </div>
+                    </div>
+                    <div class="info-item fade-in-up">
+                        <i class="fas fa-info-circle"></i>
+                        <div class="info-content">
+                            <h3>Quand Appeler</h3>
+                            <p>Mal de dents sévère, dent délogée, mâchoire cassée, saignement incontrôlable ou gonflement facial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">Clinique<span>Dentaire</span> Ivoire</a>
+                    <p>Fournir des soins dentaires exceptionnels axés sur le confort des patients et les techniques modernes depuis 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-container">
+                    <h3 class="footer-heading">Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="contact-info-footer">
+                    <h3 class="footer-heading">Informations de Contact</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-content">
+                            <p>15 Rue des Jardins<br>Plateau, Abidjan</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-content">
+                            <p>+225 21 22 33 44</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-content">
+                            <p>info@cliniquedentaire-ivoire.ci</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Clinique Dentaire Ivoire. Tous Droits Réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
