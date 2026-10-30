@@ -1,6 +1,6 @@
-# Clinique Dentaire Ivoire
+# Clinique Aimé++
 
-A modern, responsive website for a dental clinic in Abidjan, Côte d'Ivoire.
+A modern, responsive website for a dental clinic in Yattaya, Conakry, Guinea.
 
 ## Features
 
@@ -10,7 +10,7 @@ A modern, responsive website for a dental clinic in Abidjan, Côte d'Ivoire.
 - Smooth scrolling animations and effects
 - Video hero section on homepage
 - Contact form for appointment requests
-- Localized content for Côte d'Ivoire
+- Localized content for Guinea
 
 ## Pages
 
@@ -39,4 +39,4 @@ The website includes a favicon located at `img/favicon.png`.
 
 ## Author
 
-Clinique Dentaire Ivoire
+Clinique Aimé++

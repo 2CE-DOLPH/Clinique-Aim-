@@ -1,4 +1,2 @@
 User-agent: *
 Disallow:
-
-Sitemap: https://www.cliniquedentaire-ivoire.ci/sitemap.xml
