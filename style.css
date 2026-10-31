@@ -418,6 +418,18 @@ body {
   align-items: center;
 }
 
+.image-credit {
+  margin-top: 8px;
+  color: var(--gray);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.image-credit a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .about-text h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
